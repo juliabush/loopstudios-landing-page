@@ -53,6 +53,7 @@ body {
 .main__container {
   height: 100%;
   display: grid;
+  font-family: "Josefin Sans";
 }
 
 .header-hero__container {
@@ -64,6 +65,8 @@ body {
   padding-right: 10%;
   padding-top: 5%;
   height: 100%;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
 }
 
 .nav__container {
@@ -83,7 +86,11 @@ body {
 
 .heading-1__main-title {
   font-size: 2rem;
-  width: 160px;
+  width: 300px;
   text-transform: uppercase;
-  padding-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
