@@ -1,0 +1,7 @@
+@use '../util/fonts' as util;
+
+.main__container {
+    height: 100%;
+    display: grid;
+    font-family: util.$font-main;
+}

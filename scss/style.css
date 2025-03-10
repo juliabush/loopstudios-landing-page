@@ -27,8 +27,7 @@ html {
   text-size-adjust: none;
 }
 
-ul[role=list],
-ol[role=list] {
+ul[role=list], ol[role=list] {
   list-style: none;
 }
 
@@ -38,4 +37,53 @@ ol[role=list] {
 
 html, body {
   height: 100%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+:root {
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-Black: hsl(0, 0%, 0%);
+  --clr-Dark-Gray: hsl(0, 0%, 55%);
+  --clr-Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+.main__container {
+  height: 100%;
+  display: grid;
+}
+
+.header-hero__container {
+  background-image: url(/images/desktop/image-hero.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-clip: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  height: 100%;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-image__loopstudios-icon {
+  width: 100px;
+  height: 16px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.heading-1__main-title {
+  font-size: 2rem;
+  width: 160px;
+  text-transform: uppercase;
+  padding-top: 5%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+@use '../util/';
+
+.header-hero__container {
+    background-image: url(/images/desktop/image-hero.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-clip: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    height: 100%;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-image__loopstudios-icon {
+    width: 100px;
+    height: 16px;
+}
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+.heading-1__main-title {
+    font-size: 2rem;
+    width: 160px;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
