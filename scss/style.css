@@ -75,22 +75,56 @@ body {
 }
 
 .header-image__loopstudios-icon {
-  width: 100px;
-  height: 16px;
+  width: 9rem;
+  height: 1.5rem;
 }
 
 .nav-list {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .heading-1__main-title {
-  font-size: 2rem;
-  width: 300px;
+  font-size: 3rem;
+  width: 400px;
   text-transform: uppercase;
   margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   padding: 1.5rem;
   border: 2px solid rgba(255, 255, 255, 0.8);
   font-weight: 300;
+}
+
+.benefits-section__container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1.7fr 1fr;
+  padding: 10%;
+}
+
+.VR-images--responsive {
+  z-index: 1;
+  width: 100%;
+}
+
+.benefits-section__text {
+  z-index: 2;
+  padding: 4rem;
+  background-color: white;
+  position: absolute;
+  width: 500px;
+  right: 15%;
+  top: 50%;
+}
+
+.heading-2__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.paragraph__h2-caption {
+  color: rgba(0, 0, 0, 0.7);
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+.benefits-section__container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1.7fr 1fr;
+    padding: 10%;
+}
+.VR-images--responsive {
+    z-index: 1;
+    width: 100%;
+}
+.benefits-section__text {
+    z-index: 2;
+    padding: 4rem;
+    background-color: white;
+    position: absolute;
+    width: 500px;
+    right: 15%;
+    top: 50%;
+}
+.heading-2__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: black;
+    margin-bottom: .5rem;
+}
+.paragraph__h2-caption {
+    color: rgba(0, 0, 0, 0.7);
+}
