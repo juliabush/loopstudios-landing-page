@@ -1,4 +1,5 @@
 @use '../util/fonts' as util;
+@use "../responsive-design/mixins" as mixin;
 
 .main__container {
     height: 100%;

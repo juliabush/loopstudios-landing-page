@@ -1,3 +1,5 @@
+@use "../responsive-design/mixins" as mixin;
+
 .benefits-section__container {
     display: grid;
     position: relative;

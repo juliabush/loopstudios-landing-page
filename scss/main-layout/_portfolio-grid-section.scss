@@ -1,3 +1,5 @@
+@use "../responsive-design/mixins" as mixin;
+
 .portfolio-grid-section__container {
     padding-left: 10%;
     padding-right: 10%;
