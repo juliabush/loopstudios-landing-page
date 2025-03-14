@@ -3,7 +3,7 @@
         @media(max-width:500px){@content;}
     }
     @else if $breakpoint == tablet {
-        @media(max-width:1200px){@content;}
+        @media(min-width: 501px) and (max-width:1200px){@content;}
     }
     @else if $breakpoint == desktop {
         @media(min-width:1201px){@content;}

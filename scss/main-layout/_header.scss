@@ -14,7 +14,7 @@
 
        @include mixin.respond(mobile) {
         display: grid;
-        padding: 0;
+        padding: 0%;
         width: 100vw;
         height: 100vh;
         background-image: url(/images/mobile/image-hero.jpg);

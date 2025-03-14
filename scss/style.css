@@ -72,7 +72,7 @@ body {
 @media (max-width: 500px) {
   .header-hero__container {
     display: grid;
-    padding: 0;
+    padding: 0%;
     width: 100vw;
     height: 100vh;
     background-image: url(/images/mobile/image-hero.jpg);
@@ -82,7 +82,7 @@ body {
     margin-bottom: 2rem;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .header-hero__container {
     padding-left: 5%;
   }
@@ -107,7 +107,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .nav-list {
     display: none;
   }
@@ -139,12 +139,18 @@ body {
   grid-template-columns: 1.7fr 1fr;
   padding: 10%;
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .benefits-section__container {
     padding: 5%;
     padding-top: 10%;
     padding-bottom: 25%;
     grid-template-columns: 1.4fr 0.8fr;
+  }
+}
+@media (max-width: 500px) {
+  .benefits-section__container {
+    padding: 0%;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -162,12 +168,20 @@ body {
   right: 15%;
   top: 50%;
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .benefits-section__text {
     padding: 3rem;
     width: 400px;
     right: 5%;
     top: 35%;
+  }
+}
+@media (max-width: 500px) {
+  .benefits-section__text {
+    width: auto;
+    position: static;
+    top: 0%;
+    right: 0%;
   }
 }
 
@@ -188,7 +202,7 @@ body {
   padding-right: 10%;
   margin-bottom: 10%;
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .portfolio-grid-section__container {
     padding-left: 5%;
     padding-right: 5%;
@@ -217,7 +231,7 @@ body {
     grid-template-rows: 1fr;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .grid__container {
     place-self: center;
     -moz-column-gap: 4rem;
@@ -235,10 +249,15 @@ body {
   padding-left: 10%;
   padding-right: 10%;
 }
-@media (max-width: 1200px) {
+@media (min-width: 501px) and (max-width: 1200px) {
   .footer__container {
     padding-left: 5%;
     padding-right: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .footer__container {
+    padding: 0;
   }
 }
 
@@ -253,6 +272,11 @@ body {
   justify-content: space-between;
   color: white;
   padding-top: 2rem;
+}
+@media (max-width: 500px) {
+  .footer-flexbox-1, .footer-flexbox-2 {
+    justify-content: start;
+  }
 }
 
 .flexbox-1__mini-flex {

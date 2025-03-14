@@ -11,6 +11,10 @@
         padding-bottom: 25%;
         grid-template-columns: 1.4fr 0.8fr;
     }
+    @include mixin.respond(mobile) {
+        padding: 0%;
+        grid-template-columns: 1fr;
+    }
 }
 .VR-images--responsive {
     z-index: 1;
@@ -29,6 +33,12 @@
         width: 400px;
         right: 5%;
         top: 35%;
+    }
+    @include mixin.respond(mobile) {
+        width: auto;
+        position: static;
+        top: 0%;
+        right: 0%;
     }
 }
 .heading-2__title {
