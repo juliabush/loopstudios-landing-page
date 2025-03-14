@@ -4,6 +4,10 @@
     background-color: black;
     padding-left: 10%;
     padding-right: 10%;
+    @include mixin.respond(tablet) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 .footer-image__loopstudios-logo {
     width: 9rem;

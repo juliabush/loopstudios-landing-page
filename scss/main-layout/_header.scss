@@ -16,12 +16,15 @@
         display: grid;
         padding: 0;
         width: 100vw;
-        height: 100vw;
+        height: 100vh;
         background-image: url(/images/mobile/image-hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 2rem;
+    }
+    @include mixin.respond(tablet) {
+        padding-left: 5%;
     }
 }
 .nav__container {
@@ -36,6 +39,9 @@
     display: flex;
     gap: 1.5rem;
     @include mixin.respond(mobile) {
+        display: none;
+    }
+    @include mixin.respond(tablet) {
         display: none;
     }
 }

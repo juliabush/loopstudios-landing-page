@@ -59,10 +59,16 @@
         Our creations
       </h3>
       <div class="grid__container">
-        <img src="/images/desktop/image-deep-earth.jpg" alt="" class="grid-image__deep-earth">
-        <!-- Deep earth -->
-         <img src="/images/desktop/image-night-arcade.jpg" alt="" class="grid-image__night-arcade">
-        <!-- Night arcade -->
+        <picture>
+          <source srcset="/images/desktop/image-deep-earth.jpg" alt="Image of planet Earth" class="grid-image__deep-earth" media="(min-width:600px)">
+          <img src="/images/mobile/image-deep-earth.jpg" alt="Image of planet Earth">
+          <!-- Deep earth -->
+        </picture>
+         <picture>
+           <source srcset="/images/desktop/image-night-arcade.jpg" alt="" class="grid-image__night-arcade" media="(min-width:600px)">
+            <img src="/images/mobile/image-night-arcade.jpg" alt="">
+                   <!-- Night arcade -->
+         </picture>
          <img src="/images/desktop/image-soccer-team.jpg" alt="" class="grid-image__soccer-team-VR">
         <!-- Soccer team VR -->
         <img src="/images/desktop/image-grid.jpg" alt="" class="grid-image__the-grid">
