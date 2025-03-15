@@ -33,6 +33,11 @@
         grid-template-columns: 1fr 1fr;
     }
 }
-.grid-image__night-arcade {
-    grid-column: 2;
+picture {
+    position: relative;
+}
+picture p {
+    position: absolute;
+    bottom: 0.5rem;
+    color: white;
 }
