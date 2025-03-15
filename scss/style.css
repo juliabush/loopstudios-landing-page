@@ -52,7 +52,6 @@ body {
 
 .main__container {
   height: 100%;
-  width: 100vw;
   display: grid;
   font-family: "Josefin Sans";
 }
@@ -133,6 +132,16 @@ body {
   }
 }
 
+.button__container {
+  background-color: transparent;
+  border: none;
+}
+@media (min-width: 1201px) {
+  .button__container {
+    display: none;
+  }
+}
+
 .benefits-section__container {
   display: grid;
   position: relative;
@@ -143,7 +152,7 @@ body {
   .benefits-section__container {
     padding: 5%;
     padding-top: 10%;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
     grid-template-columns: 1.4fr 0.8fr;
   }
 }
@@ -286,6 +295,7 @@ body {
 
 .fa-brands {
   font-size: 1.5rem;
+  color: white;
 }
 
 .footer-copyright__text {
