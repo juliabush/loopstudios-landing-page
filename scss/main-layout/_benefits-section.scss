@@ -8,7 +8,7 @@
     @include mixin.respond(tablet) {
         padding: 5%;
         padding-top: 10%;
-        padding-bottom: 20%;
+        padding-bottom: 15%;
         grid-template-columns: 1.4fr 0.8fr;
     }
     @include mixin.respond(mobile) {
@@ -20,6 +20,10 @@
 .VR-images--responsive {
     z-index: 1;
     width: 100%;
+    @include mixin.respond(mobile) {
+        width: 90%;
+        margin-top: 2rem;
+    }
 }
 .benefits-section__text {
     z-index: 2;
@@ -40,6 +44,8 @@
         position: static;
         top: 0%;
         right: 0%;
+        text-align: center;
+        padding: 3rem;
     }
 }
 .heading-2__title {
@@ -48,6 +54,7 @@
     font-weight: 300;
     color: black;
     margin-bottom: .5rem;
+    text-wrap: balance;
 }
 .paragraph__h2-caption {
     color: rgba(0, 0, 0, 0.7);
