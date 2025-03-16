@@ -283,8 +283,19 @@ picture {
 
 picture p {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 10%;
+  left: 10%;
   color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-wrap: balance;
+}
+@media (min-width: 1201px) {
+  picture p {
+    left: 15%;
+    bottom: 5%;
+  }
 }
 
 img {
