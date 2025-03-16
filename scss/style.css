@@ -54,6 +54,7 @@ body {
   height: 100%;
   display: grid;
   font-family: "Josefin Sans";
+  font-size: 1.25rem;
 }
 
 .header-hero__container {
@@ -190,7 +191,7 @@ body {
   position: absolute;
   width: 500px;
   right: 15%;
-  top: 50%;
+  top: 55%;
 }
 @media (min-width: 501px) and (max-width: 1200px) {
   .benefits-section__text {
@@ -247,6 +248,7 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 2rem;
+  padding-left: 1rem;
 }
 @media (max-width: 500px) {
   .heading-3__title {
@@ -289,7 +291,8 @@ picture p {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 300;
-  text-wrap: balance;
+  font-family: inherit;
+  width: 60%;
 }
 @media (min-width: 1201px) {
   picture p {

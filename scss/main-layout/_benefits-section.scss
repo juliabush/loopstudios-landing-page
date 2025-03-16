@@ -32,7 +32,7 @@
     position: absolute;
     width: 500px;
     right: 15%;
-    top: 50%;
+    top: 55%;
     @include mixin.respond(tablet) {
         padding: 3rem;
         width: 400px;

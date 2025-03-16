@@ -18,6 +18,7 @@
     font-weight: 300;
     letter-spacing: 1px;
     margin-bottom: 2rem;
+    padding-left: 1rem;
     @include mixin.respond(mobile) {
         padding-left: 5%;
     }
@@ -50,7 +51,8 @@ picture p {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
-    text-wrap: balance;
+    font-family: inherit;
+    width: 60%;
     @include mixin.respond(desktop) {
         left: 15%;
         bottom: 5%;
