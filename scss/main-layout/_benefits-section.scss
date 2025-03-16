@@ -13,6 +13,7 @@
     }
     @include mixin.respond(mobile) {
         padding: 0%;
+        padding-bottom: 10%;
         grid-template-columns: 1fr;
     }
 }
