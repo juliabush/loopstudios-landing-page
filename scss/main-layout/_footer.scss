@@ -42,7 +42,8 @@
 }
 .footer-flexbox-2 {
     padding-bottom: 5%;
+    opacity: 0.7;
     @include mixin.respond(mobile) {
-        justify-content: start;
+        justify-content: space-between;
     }
 }
