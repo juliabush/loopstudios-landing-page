@@ -154,6 +154,18 @@ body {
   }
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aqua;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
 .benefits-section__container {
   display: grid;
   position: relative;
